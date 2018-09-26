@@ -13,7 +13,9 @@ body {
     padding-top: 56px;
   }
 }
-
+.title2{
+  display: inline
+}
 .carousel-item {
   height: 65vh;
   min-height: 300px;
