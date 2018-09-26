@@ -20,7 +20,7 @@ experiencias.forEach(function(experiencia){
     element.className='card mb-4'
     element.innerHTML=`<img class="card-img-top " src="${experiencia.img}" alt="Card image cap">
     <div class="card-body">
-      <h3 class="card-title">${experiencia.titulo.es}</h3>
+      <h4 class="card-title">${experiencia.titulo.es}</h4>
       <p class="card-text">${experiencia.descripcion.es}</p>
       <a href="#" class="btn btn-primary">Saber mas &rarr;</a>
     </div>`            
