@@ -18,3 +18,28 @@
     -moz-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
     box-shadow: 0 4px 5px -1px rgba;
 }
+#servicios{
+    padding-top: 5%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.galeria{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 760px){
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+    } 
+}
+.mbr-gallery .mbr-gallery-item {
+    width: 100%;
+}
+
+.noPorAhora{
+    display: none
+}
